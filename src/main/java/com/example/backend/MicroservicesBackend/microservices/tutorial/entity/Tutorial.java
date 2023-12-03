@@ -1,6 +1,9 @@
 package com.example.backend.MicroservicesBackend.microservices.tutorial.entity;
 
-import jakarta.persistence.*;
+
+import javax.persistence.Entity;
+import javax.persistence.*;
+
 
 @Entity
 @Table(name = "tutorials")
