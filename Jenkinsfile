@@ -5,20 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 git 'https://github.com/muntinovaa/MicroservicesBackend.git'
-                sh './mvnw clean compile'
-                // bat '.\\mvnw clean compile'
+                sh './mvnw clean install'
+
             }
         }
-        stage('Publish') {
-            steps {
-                sh './mvnw package'
-                // bat '.\\mvnw package'
-            }
-            post {
-                success {
-                    archiveArtifacts 'target/*.war'
-                }
-            }
-        }
+
     }
 }
