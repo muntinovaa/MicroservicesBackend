@@ -71,10 +71,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
+				<version>3.8.1</version> <!-- or newer -->
 				<configuration>
-					<source>11</source>
-					<target>11</target>
+					<release>11</release> <!-- Use this for Java 9 and above -->
 				</configuration>
 			</plugin>
 		</plugins>
