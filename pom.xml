@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example.backend</groupId>
 	<artifactId>MicroservicesBackend</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>MicroservicesBackend</name>
 	<description>Spring Boot Project</description>
 	<properties>
