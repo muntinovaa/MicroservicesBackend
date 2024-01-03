@@ -1,4 +1,4 @@
-package com.example.backend.MicroservicesBackend.microservices.tutorial.entity;
+package com.example.backend.school.entity;
 
 
 import javax.persistence.Entity;

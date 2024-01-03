@@ -10,10 +10,16 @@
 	</parent>
 	<groupId>com.example.backend</groupId>
 	<artifactId>MicroservicesBackend</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>MicroservicesBackend</name>
 	<description>Spring Boot Project</description>
-	<properties>
+
+    <modules>
+		<module>TutorialAPI</module>
+		<module>SchoolAPI</module>
+	</modules>
+
+    <properties>
 		<java.version>11</java.version>
 	</properties>
 

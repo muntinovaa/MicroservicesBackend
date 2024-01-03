@@ -1,8 +1,8 @@
-package com.example.backend.MicroservicesBackend.microservices.tutorial.repository;
+package com.example.backend.school.repository;
 
 
-import com.example.backend.MicroservicesBackend.microservices.tutorial.entity.Comment;
-import javax.persistence.*;
+import com.example.backend.school.entity.Comment;
+
 import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
